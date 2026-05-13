@@ -145,12 +145,12 @@ When submitting, provide:
 
 1. **GitHub Repository Link**
    ```
-   https://github.com/YOUR_USERNAME/DSO101-A4-DevOps
+   https://github.com/twglhamo/TshewangLhamo_0225377_DSO101_A4
    ```
 
 2. **Live Deployed URL**
    ```
-   https://your-app.onrender.com
+   https://tshewanglhamo-02250377-dso101-a4.onrender.com
    ```
 
 3. **README** (this file)
@@ -202,6 +202,9 @@ When submitting, provide:
 - [GitHub Actions Docs](https://docs.github.com/en/actions)
 - [Render Documentation](https://render.com/docs)
 - [HTML/CSS Reference](https://developer.mozilla.org/en-US/)
+
+- 
+
 
 ---
 

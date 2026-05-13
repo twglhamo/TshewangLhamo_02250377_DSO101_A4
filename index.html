@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps First Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Welcome to DevOps!</h1>
+            <p class="subtitle">My First CI/CD Deployed Application</p>
+        </header>
+        
+        <main>
+            <section class="info">
+                <h2>About This Project</h2>
+                <p>This is a simple static website deployed using:</p>
+                <ul>
+                    <li>GitHub for version control</li>
+                    <li>GitHub Actions for CI/CD automation</li>
+                    <li>Render for hosting and deployment</li>
+                </ul>
+            </section>
+
+            <section class="features">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>🔄 Continuous Integration</h3>
+                        <p>Automated workflows on every push</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🚀 Continuous Deployment</h3>
+                        <p>Automatic deployment to Render</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>⚡ Fast & Reliable</h3>
+                        <p>Modern DevOps best practices</p>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>Made with ❤️ for DSO101</p>
+                <p><small>Deployed on: <span id="date"></span></small></p>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        document.getElementById('date').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
